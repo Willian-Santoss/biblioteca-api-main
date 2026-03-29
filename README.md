@@ -24,7 +24,7 @@ Projeto didático da disciplina de **Desenvolvimento Web Back-End** para constru
 - [🖼️ Screenshots obrigatórias](#-screenshots-obrigatórias)
 - [🧯 Solução de problemas comuns](#-solução-de-problemas-comuns)
 - [📈 Evolução nas próximas aulas](#-evolução-nas-próximas-aulas)
-- [👨‍🏫 Contexto acadêmico](#-contexto-acadêmico)
+- [👨‍🏫 Autor](#-autor)
 - [📄 Licença](#-licença)
 
 ---
