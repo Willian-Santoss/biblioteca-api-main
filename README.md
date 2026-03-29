@@ -23,7 +23,6 @@ Projeto didático da disciplina de **Desenvolvimento Web Back-End** para constru
 - [🧪 Testando no Postman/Insomnia](#-testando-no-postmaninsomnia)
 - [🖼️ Screenshots obrigatórias](#-screenshots-obrigatórias)
 - [🧯 Solução de problemas comuns](#-solução-de-problemas-comuns)
-- [📈 Evolução nas próximas aulas](#-evolução-nas-próximas-aulas)
 - [👨‍🏫 Autor](#-autor)
 - [📄 Licença](#-licença)
 
