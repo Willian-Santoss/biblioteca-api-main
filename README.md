@@ -33,7 +33,7 @@ Projeto didático da disciplina de **Desenvolvimento Web Back-End** para constru
 
 A aplicação simula o fluxo real de um sistema back-end:
 
-**Cliente → API REST → Banco (H2) → Resposta**
+**Cliente → API REST → Banco de Dados (H2) → Resposta**
 
 Funcionalidades atuais:
 
@@ -62,7 +62,7 @@ Ao concluir este laboratório, o(a) aluno(a) será capaz de:
 
 ## 🧰 Tecnologias utilizadas
 
-- **Java 17**
+- **Java 17+ (recomendado 17)**
 - **Spring Boot 3.5.11**
 - **Spring Web**
 - **Spring Data JPA**
@@ -207,19 +207,17 @@ Na inicialização, o sistema já carrega livros de exemplo no H2 para facilitar
 
 ### 9) Executar o projeto
 
-No terminal da raiz do projeto:
+#### Usando Maven Wrapper (recomendado)
 
-#### Windows
-
-```bash
+Windows:
 .\mvnw.cmd spring-boot:run
-```
 
-#### Linux/macOS
-
-```bash
+Linux/macOS:
 ./mvnw spring-boot:run
-```
+
+#### Ou usando Maven instalado
+
+mvn spring-boot:run
 
 Aplicação em:
 
@@ -261,8 +259,11 @@ GET http://localhost:8080/livros
 
 ```json
 {
+  "id": 1,
   "titulo": "Java para Web",
-  "autor": "William Alves"
+  "autor": "Willian Santos",
+  "emprestado": false,
+  "dataEmprestimo": null
 }
 ```
 
@@ -300,6 +301,14 @@ Guia detalhado de padrão visual em:
 
 ---
 
+## 🔗 Repositório
+
+Clone o projeto:
+
+git clone https://github.com/Willian-Santoss/biblioteca-api-main.git
+
+---
+
 ## 🧯 Solução de problemas comuns
 
 ### Porta 8080 ocupada
@@ -328,23 +337,12 @@ Verifique:
 
 ---
 
-## 📈 Evolução nas próximas aulas
+## 👤 Autor
 
-Este projeto será evoluído para:
+**Willian Santos**
 
-- banco persistente (MySQL/PostgreSQL)
-- validações (Bean Validation)
-- tratamento de exceções padronizado
-- autenticação e segurança (JWT)
-- documentação com Swagger/OpenAPI
-
----
-
-## 👨‍🏫 Contexto acadêmico
-
-Projeto base do **Desafio de Laboratório – Semana 2** da disciplina de **Desenvolvimento Web Back-End**.
-
-Professor: **Abimael de Oliveira**
+- GitHub: https://github.com/Willian-Santoss
+- LinkedIn: https://linkedin.com/in/willian-santos-b848242bb
 
 ---
 
