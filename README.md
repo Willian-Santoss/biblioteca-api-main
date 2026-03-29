@@ -336,15 +336,6 @@ Verifique:
 
 ---
 
-## 👤 Autor
-
-**Willian Santos**
-
-- GitHub: https://github.com/Willian-Santoss
-- LinkedIn: https://linkedin.com/in/willian-santos-b848242bb
-
----
-
 ## 📄 Licença
 
 Uso educacional.
