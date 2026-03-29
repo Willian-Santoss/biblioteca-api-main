@@ -49,7 +49,7 @@ Funcionalidades atuais:
 
 ## ✨ Objetivos de aprendizagem
 
-Ao concluir este laboratório, o(a) aluno(a) será capaz de:
+Ao concluir este laboratório, será capaz de:
 
 - criar e executar uma API REST com Spring Boot
 - aplicar arquitetura em camadas (`controller`, `service`, `repository`, `model`)
